@@ -6,6 +6,7 @@ export const WrapperTable = styled.div`
         width:50%;
         margin: 0 auto;
         border-spacing: 0 0.5rem;
+        
 
         th{ 
             color: var(--text-body);
@@ -14,7 +15,7 @@ export const WrapperTable = styled.div`
             text-align: left;
             line-height: 1.5rem;
         }
-
+        
 
         td{
             padding: 1rem 2rem;

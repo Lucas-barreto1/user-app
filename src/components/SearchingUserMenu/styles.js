@@ -37,6 +37,7 @@ export const SelectItensPerPage = styled.div`
         padding: 0.75rem 3rem 0.75rem 1rem;
         margin-left: 0.5rem;
         border: none;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     }
 `;
 
