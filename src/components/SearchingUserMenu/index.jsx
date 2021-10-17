@@ -26,7 +26,7 @@ function SearchingUserMenu({itensPerPage, setItensPerPage}) {
     <WrapperSearchinMenu>
         <SearchingUsers 
             type="text"
-            placeholder='Search'
+            placeholder='Search by name or age'
             onChange={handleFindByUser}
         />
 
