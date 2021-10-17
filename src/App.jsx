@@ -1,4 +1,4 @@
-import Summary from './components/Summary';
+import HomePage from './pages/home';
 import  UserProvider from './hooks/UserContext';
 
 import { GlobalStyle } from "./styles/global";
@@ -7,7 +7,7 @@ import { GlobalStyle } from "./styles/global";
 function App() {
   return(
     <UserProvider>
-      <Summary />
+      <HomePage />
       <GlobalStyle />
     </UserProvider>
   )
