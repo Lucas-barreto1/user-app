@@ -3,11 +3,9 @@ import { useUsers } from '../../hooks/UserContext';
 import SearchingUserMenu from '../SearchingUserMenu';
 import UsersTable from '../UsersTable';
 
-
-
 import {Container, ButtonPagination} from './styles';
 
-const Pagination = () => {
+const Summary = () => {
     const { users } = useUsers();
 
     const [itensPerPage, setItensPerPage] = useState(15);
@@ -41,21 +39,23 @@ const Pagination = () => {
     }, [itensPerPage])
 
     return (
-    <Container>
-
-    <SearchingUserMenu itensPerPage={itensPerPage} setItensPerPage={setItensPerPage} />
-
-    <hr />
     
-    <UsersTable currentItens={currentItens}/>
+        <Container>
 
-    <ButtonPagination>
-        {pages.map((page, index) => {
-            return <button value={index} onClick={() => onChangeCurrentPage(page)}>{page}</button>
-        })}
-    </ButtonPagination>
-</Container>
+        <SearchingUserMenu itensPerPage={itensPerPage} setItensPerPage={setItensPerPage} />
+
+        <hr />
+
+        <UsersTable currentItens={currentItens}/>
+
+        <ButtonPagination>
+            {pages.map((page, index) => {
+                return <button value={index} onClick={() => onChangeCurrentPage(page)}>{page}</button>
+            })}
+        </ButtonPagination>
+    </Container>
+
     );
 }
 
-export default Pagination
+export default Summary

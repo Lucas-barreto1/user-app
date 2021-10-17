@@ -1,4 +1,4 @@
-import Pagination from './components/Pagination';
+import Summary from './components/Summary';
 import  UserProvider from './hooks/UserContext';
 
 import { GlobalStyle } from "./styles/global";
@@ -7,7 +7,7 @@ import { GlobalStyle } from "./styles/global";
 function App() {
   return(
     <UserProvider>
-      <Pagination />
+      <Summary />
       <GlobalStyle />
     </UserProvider>
   )
