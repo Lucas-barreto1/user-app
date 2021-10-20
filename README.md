@@ -17,7 +17,7 @@
 
 # 🚀 Tecnologias 
 Este projeto por mais que seja simples utiliza dos principais conceitos existentes no React sendo eles a componentização, propiedades e o contexto. <br />
-Além de utilizar o [Axios](https://www.npmjs.com/package/axios) para chamadas a API, e [Styled Components ](https://styled-components.com/) para estilização da aplicação. <br />
+Além de utilizar o [Axios](https://www.npmjs.com/package/axios) para chamadas a API, e [Styled Components ](https://styled-components.com/) para estilização da aplicação. 
 Foi utilizado também paginação para lidar com os dados da API e um filtro de busca com objetivo de buscar os usuários pelo nome ou idade.
 
 * [React](https://reactjs.org/) 
